@@ -1,20 +1,12 @@
 import React from 'react'
+import Logo from './logo'
+import Nav from './nav'
 
 const Header = () => {
     return (
-        <header className='m-3 flex justify-between'>
-            <div>
-                <h1>LOGO</h1>
-            </div>
-            <nav>
-                <ul className='flex gap-2'>
-                    <li>HOME</li>
-                    <li>TENTANG KAMI</li>
-                    <li>PROGRAM</li>
-                    <li>KONTAK</li>
-                    <li>BLOG</li>
-                </ul>
-            </nav>
+        <header className='sticky top-0 z-[20] mx-auto flex w-full items-center justify-between p-8'>
+            <Logo />
+            <Nav />
         </header>
     )
 }
