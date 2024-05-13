@@ -12,7 +12,7 @@ const Header = () => {
                     <li>TENTANG KAMI</li>
                     <li>PROGRAM</li>
                     <li>KONTAK</li>
-                    <li>BLOG</li>
+                    <li>BLOGA</li>
                 </ul>
             </nav>
         </header>
