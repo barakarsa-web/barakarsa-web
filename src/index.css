@@ -5,8 +5,7 @@
 @tailwind utilities;
 
 body {
-  font-family: "Outfit", sans-serif;
-  background-color: #fffff0;
+  background-color: #e8e8e8;
   min-width: 100vh;
   min-height: 100vh;
   overflow-x: hidden;
