@@ -24,7 +24,7 @@ const Nav = () => {
     return (
         <>
             <nav className='md:w-1/3 w-1/5 transition duration-150 ease-in-out  flex-wrap flex justify-end'>
-                <div className='hidden w-full  justify-between md:flex'>
+                <div className='hidden w-full justify-between md:flex'>
                     <Navlinks />
                 </div>
                 <div className='md:hidden'>
