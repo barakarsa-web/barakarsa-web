@@ -1,12 +1,18 @@
 import React from 'react'
 import Logo from './logo'
 import Nav from './nav'
+import Hero from './hero'
+import Overlay from './overlay'
 
 const Header = () => {
     return (
-        <header className='sticky top-0  z-[20] mx-auto flex flex-wrap items-center justify-between p-8'>
-            <Logo />
-            <Nav />
+        <header className='relative'>
+            <Hero />
+            <div className='absolute top-0 left-0 right-0 flex justify-between p-8 mx-auto'>
+                <Logo />
+                <Nav />
+            </div>
+            <Overlay />
         </header>
     )
 }
