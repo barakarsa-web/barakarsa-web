@@ -1,10 +1,11 @@
 import React from 'react'
+import About from './about'
 
 const Main = () => {
     return (
-        <>
-            <h1 className='text-[50px] text-secondary-300 font-["Young_serif"]'>Tentang Kami</h1>
-        </>
+        <div className='mt-11'>
+            <About />
+        </div>
     )
 }
 
