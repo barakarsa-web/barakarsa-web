@@ -69,7 +69,7 @@ const Nav = () => {
                 <div className='md:hidden'>
                     <button onClick={toggleNavbar} className='focus:outline-none transition-colors duration-100'>
                         <div className={`transition-colors duration-300 bg-secondary-100 p-2 rounded-full shadow animate-backInRight
-                                        ${scrollPosition > 580 ? 'bg-white' : 'bg-transparent'}`}>
+                                        ${scrollPosition > 600 ? 'bg-white' : 'bg-transparent'}`}>
                             {IsOpen ? <X size='40' color={scrollPosition > 580 ? '#000' : '#fff'} /> : <Menu size='40' color={scrollPosition > 580 ? '#000' : '#fff'} />}
                         </div>
                     </button>
