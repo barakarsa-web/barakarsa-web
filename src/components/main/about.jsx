@@ -18,7 +18,7 @@ const About = () => {
                     keutuhan Bhineka Tunggal Ika (berbeda beda tetapi tetap
                     satu jua) merupakan semboyan negara indonesia yang
                     dijadikan sebagai dasar unuk mewujudkan persatuan dan
-                    kesatuan negara indonesia.bl;asaknskjndjansdj
+                    kesatuan negara indonesia.
                 </div>
             </div>
         </div>
