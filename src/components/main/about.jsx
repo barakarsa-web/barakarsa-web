@@ -18,9 +18,14 @@ const About = () => {
                     keutuhan Bhineka Tunggal Ika (berbeda beda tetapi tetap
                     satu jua) merupakan semboyan negara indonesia yang
                     dijadikan sebagai dasar unuk mewujudkan persatuan dan
-                    kesatuan negara indonesia.
+                    kesatuan negara indonesia. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum amet, illum aspernatur error quaerat suscipit saepe, repudiandae, qui ut asperiores blanditiis. Iste, corporis molestiae! Numquam nisi reiciendis, odio eum facere quod doloribus iusto eaque provident temporibus, sunt eligendi perferendis vero! Culpa exercitationem harum recusandae voluptatibus facere iste nihil laboriosam ipsam, porro ex unde dolore quam impedit sed nemo sunt modi eligendi veniam fugiat vitae nesciunt saepe ullam dolorem delectus! Ipsam, consequuntur iusto. Saepe explicabo, esse rerum, veritatis eum adipisci enim voluptate delectus nihil architecto laborum? Aspernatur facilis unde dolor ratione ea quibusdam facere omnis, magni accusantium numquam est quas eligendi.
                 </div>
-            </div>
+            </div>\
+            <button>
+                    <div className='bg-secondary-200 p-4 text-secondary-100 rounded-xl shadow'>
+                        Join us
+                    </div>
+            </button>
         </div>
     )
 }
