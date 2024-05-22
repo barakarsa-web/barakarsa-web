@@ -9,7 +9,7 @@ export default {
       colors: {
         primary: '#FF6363',
         secondary: {
-          100: '#97917B',
+          100: '#997428',
           300: '#A3722A',
           200: '#3F2305',
         },
@@ -48,37 +48,21 @@ export default {
             opacity: '0',
             transform: 'translateX(-2000px) scale(0.7)',
           },
-          '80%': {
-            opacity: '0.7',
-            transform: 'translateX(0px) scale(0.7)',
-          },
-          '100%': {
-            opacity: '1',
-            transform: 'translateX(0px) scale(1)',
-          },
         },
-        backInRight: {
+        fadeInUp: {
           '0%': {
             opacity: '0',
-            transform: 'translateX(2000px) scale(0.7)',
-          },
-          '80%': {
-            opacity: '0.7',
-            transform: 'translateX(0px) scale(0.7)',
+            transform: 'translateY(20px)',
           },
           '100%': {
             opacity: '1',
-            transform: 'translateX(0px) scale(1)',
+            transform: 'translateY(0)',
           },
         },
       },
       animation: {
-        backInDown: 'backInDown 1s ease-in-out',
-        backInTop: 'backInTop 1s ease-in-out',
-        backInLeft: 'backInLeft 1s ease-in-out',
-        backInRight: 'backInRight 1s ease-in-out',
+        fadeInUp: 'fadeInUp 1s ease-in-out',
       },
     },
   },
-  plugins: [],
 }
