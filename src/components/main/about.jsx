@@ -4,14 +4,13 @@ import photo from '../../assets/images/section.png'
 
 const About = () => {
     return (
-        <div className='mx-10 flex justify-between gap-11 mb-12'>
-            <img src={photo} alt="kegiatan barakarsa" className='  md:w-[500px] md:h-[300px] mt-4 rounded shadow' />
+        <div className='mx-10 flex flex-col md:flex-row items-center justify-between md:gap-11 md:mb-12  bg-white p-5 shadow rounded-xl'>
             <div className='space-y-12 flex  flex-col'>
-                <div className=''>
-                    <h1 className='text-[40px] text-secondary-200 font-["Young_serif"]'>APA ITU</h1>
-                    <img src={text} className="w-44"></img>
+                <div className='flex flex-col items-center'>
+                    <h1 className='md:text-[40px] text- text-secondary-200 font-["Young_serif"]'>APA ITU</h1>
+                    <img src={text} className="w-52"></img>
                 </div>
-                <div className='text-base  text-secondary-300 font-["Young_serif"]'>
+                <div className='text-base flex items-center justify-center text-secondary-300 font-["Young_serif"]'>
                     Bakti dan Berkarya Untuk Bangsa (BARAKARSA) adalah
                     komunitas kepemudaan Non Goverment Organization yang
                     dibangun untuk memfasilitasi pengembangan dan
@@ -20,14 +19,21 @@ const About = () => {
                     keutuhan Bhineka Tunggal Ika (berbeda beda tetapi tetap
                     satu jua) merupakan semboyan negara indonesia yang
                     dijadikan sebagai dasar unuk mewujudkan persatuan dan
-                    kesatuan negara indonesia. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum amet, illum aspernatur error quaerat suscipit saepe, repudiandae, qui ut asperiores blanditiis. Iste, corporis molestiae! Numquam nisi reiciendis, odio eum facere quod doloribus iusto eaque provident temporibus, sunt eligendi perferendis vero! Culpa exercitationem harum recusandae voluptatibus facere iste nihil laboriosam ipsam, porro ex unde dolore quam impedit sed nemo sunt modi eligendi veniam fugiat vitae nesciunt saepe ullam dolorem delectus! Ipsam, consequuntur iusto. Saepe explicabo, esse rerum, veritatis eum adipisci enim voluptate delectus nihil architecto laborum? Aspernatur facilis unde dolor ratione ea quibusdam facere omnis, magni accusantium numquam est quas eligendi.
-                </div>
-            </div>\
-            <button>
-                    <div className='bg-secondary-200 p-4 text-secondary-100 rounded-xl shadow'>
-                        Join us
-                    </div>
-            </button>
+                    kesatuan negara indonesia.BARAKARSA pertama kali digagas pada tanggal 28 Oktober
+                    2023 yang berfokus melaksanakan kegiatan berbasis P3M
+                    (Pendidikan, Pengabdian, dan Pemberdayaan Masyarakat)
+                    melalui kegiatan Cipta Karsa “Mengenal dan Mengeksplorasi
+                    Keragaman Nusantara” Memiliki misi merekam dan meneliti
+                    berbagai mimpi atau imajinasi Negara tentang Indonesia,
+                    memaknai ulang keanekaragaman hayati dan Bhineka
+                    Tunggal Ika, serta merangkai simpul-simpul komunitas yang
+                    memiliki mimpi baru tentang Indonesia, berbagai
+                    dokumentasi yang telah dikumpulkan diolah menjadi artikel
+                    dan video dokumenter yang yang berisi tentang berbagai
+                    potensi, problem, dan upaya penanganannya. Sebab
+                    Keindahan Indonesia ini sangat disayangkan apabila tidak
+                    dilestarikan dan didokumentasikan dengan baik.</div>
+            </div>
         </div>
     )
 }
