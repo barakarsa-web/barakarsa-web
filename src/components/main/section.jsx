@@ -37,7 +37,7 @@ const Section = () => {
                     <div>
                         <div className='flex items-center justify-center mt-6'>
                             <HeartHandshake size='40' color='#997428' />
-                            <p  className='font-["Young_serif"] ml-[10px] text-3xl'>Pemberdayaan</p>
+                            <p  className='font-["Young_serif"] ml-[10px] text-3xl'>Pemberdayaan </p>
                         </div>
                         <p className='text-base font-["Poppins"] text-secondary-400 mt-2'>BARAKARSA memfokuskan upayanya pada pemberdayaan masyarakat dengan memanfaatkan aset dan potensi yang ada. Dengan pendekatan Asset Based Community Development (ABCD), kami membantu komunitas menemukan dan mengembangkan kekuatan mereka sendiri, sehingga menciptakan perubahan yang positif dan mandiri.</p>
                     </div>
