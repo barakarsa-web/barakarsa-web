@@ -21,19 +21,19 @@ const Navlinks = () => {
     return (
         <>
             <NavLink to='/' className={`transition-colors duration-300 md:font-medium font-black font-["Young_serif"] hover:underline text-secondary-100 md:text-xl 
-            ${scrollPosition > 700 ? 'text-secondary-200' : 'text-secondary-100'}`}>
+            ${scrollPosition > 500 ? 'text-secondary-200' : 'text-secondary-100'}`}>
                 Home
             </NavLink>
             <NavLink to='/about' className={`transition-colors duration-300 md:font-medium font-black font-["Young_serif"] hover:underline text-secondary-100 md:text-xl 
-            ${scrollPosition > 700 ? 'text-secondary-200' : 'text-secondary-100'}`}>
+            ${scrollPosition > 500 ? 'text-secondary-200' : 'text-secondary-100'}`}>
                 Tentang Kami
             </NavLink>
             <NavLink to='/contact' className={`transition-colors duration-300 md:font-medium font-black font-["Young_serif"] hover:underline text-secondary-100 md:text-xl 
-            ${scrollPosition > 700 ? 'text-secondary-200' : 'text-secondary-100'}`}>
+            ${scrollPosition > 500 ? 'text-secondary-200' : 'text-secondary-100'}`}>
                 Contact
             </NavLink>
             <NavLink to='/blog' className={`transition-colors duration-300 md:font-medium font-black font-["Young_serif"] hover:underline text-secondary-100 md:text-xl
-            ${scrollPosition > 700 ? 'text-secondary-200' : 'text-secondary-100'}`}>
+            ${scrollPosition > 500 ? 'text-secondary-200' : 'text-secondary-100'}`}>
                 Blog
             </NavLink>
         </>
