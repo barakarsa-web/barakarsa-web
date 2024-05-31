@@ -4,10 +4,10 @@ import photo from '../../assets/images/section.png'
 
 const About = () => {
     return (
-        <div className='mx-10 flex flex-col md:flex-row items-center justify-between md:gap-11 md:mb-12  bg-white p-5 shadow rounded-xl'>
+        <div className='w-[75%]  flex flex-col md:flex-row m-auto items-center  justify-center md:gap-11 md:mb-12  bg-white p-5 shadow rounded-xl'>
             <div className='space-y-12 flex  flex-col'>
                 <div className='flex flex-col items-center'>
-                    <h1 className='md:text-[40px] text- text-secondary-200 font-["Young_serif"]'>APA ITU</h1>
+                    <h1 className='md:text-[40px] text- text-secondary-200 font-["Young_serif"]'>What is</h1>
                     <img src={text} className="w-52"></img>
                 </div>
                 <div className='text-base flex items-center justify-center text-secondary-300 font-["Young_serif"]'>
