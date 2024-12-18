@@ -9,13 +9,15 @@ const Hero = () => {
                 <source src={heroVideo} type="video/mp4" />
             </video>
             {/* Dark overlay */}
-            <div className="absolute top-0 left-0 w-full h-full bg-black opacity-90 z-10"></div>
+            <div className="absolute top-0 left-0 w-full h-full bg-black opacity-70 z-10"></div>
             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-20">
                 <img src={text} className="md:w-[60%] m-auto md:h-full animate-backInDown" alt="Barakarsa" />
                 <p className="text-lg md:mt-2 text-secondary-100 font-medium font-['Young_serif'] animate-backInTop md:text-xl">
                     Bakti dan berkarya untuk bangsa
                 </p>
             </div>
+            {/* Full height overlay dengan opacity lebih rendah */}
+            <div className="absolute bottom-0 left-0 w-full h-screen bg-black opacity-70 z-30 md:h-full"></div>
         </div>
     );
 };

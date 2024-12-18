@@ -5,7 +5,7 @@ import Hero from './hero';
 
 const Header = () => {
     return (
-        <header className='relative'>
+        <header className="relative h-screen">
             <Hero />
             <div className="fixed top-0 left-0 right-0 flex justify-between md:p-10 md:px-20 py-10 px-14 mx-auto z-30">
                 <Logo />
@@ -14,5 +14,4 @@ const Header = () => {
         </header>
     );
 };
-
 export default Header;
